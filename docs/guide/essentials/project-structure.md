@@ -49,6 +49,8 @@ Many developers like having a `src/` directory to separate source code from conf
 
 ```ts
 // wxt.config.ts
+import { defineConfig } from 'wxt';
+
 export default defineConfig({
   srcDir: 'src',
 });
@@ -86,6 +88,8 @@ You can configure the following directories:
 <!-- prettier-ignore -->
 ```ts
 // wxt.config.ts
+import { defineConfig } from 'wxt';
+
 export default defineConfig({
   // Relative to project root
   srcDir: "src",             // default: "."
